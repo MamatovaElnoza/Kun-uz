@@ -11,16 +11,23 @@ a {
 }
 
 /*Header Section*/
-
-#main-header {
-    width: 95%;
-    height: 65px;
-    margin: 15px 0 0 30px;
-    border-radius: 5px;
-    background-color: #fff;
-    box-shadow: 0 0 10px gray;
+.section-nav{
+    width: 100%;
+    height: 81px;
+    background-color: white;
     position: fixed;
     z-index: 10;
+
+
+}
+#main-header {
+    width: 97%;
+    height: 65px;
+    margin: 15px 0 0 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    position: fixed;
 }
 
 .logo {
@@ -38,7 +45,7 @@ a {
     margin-left: 220px;
 }
 .header-right {
-    width: 16%;
+    width: 18%;
     margin-top: -55px;
     float: right;
 }
@@ -74,4 +81,127 @@ a {
 }
 .language1:hover {
     background-color: lightblue;
+}
+
+/*Showcase Section*/
+
+#showcase {
+    width: 100%;
+    height: 3000px;
+    clear: both;
+    position: absolute;
+    margin-top: 80px;
+}
+
+.showcase-section {
+    padding: 25px;
+}
+
+.left {
+    width: 75%;
+    float: left;
+}
+
+.information:hover .main-info{
+    color: blue;
+}
+.left-main {
+    display: flex;
+}
+.main-info {
+    padding: 40px 30px 20px 0;
+    font-size: 28px;
+    cursor: pointer;
+}
+.letter {
+    padding-right: 25px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    color: rgb(94, 94, 94);
+}
+/*left bottom*/
+
+.left-bottom {
+    display: flex;
+    padding-top: 30px;
+}
+.left-bottom-whole {
+    float: left;
+}
+.left-bottom-left {
+    width: 76%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    display: flex;
+    border-bottom: 1px solid rgb(189, 189, 189);
+}
+.left-bottom-text {
+    line-height: 30px;
+}
+.little-text{
+    padding: 20px 0;
+    font-size: 12px;
+    font-weight: 900;
+    color: rgb(171, 171, 171);
+}
+.font-size {
+    font-size: 20px;
+    padding-right: 30px;
+    cursor: pointer;
+}
+.font-size:hover {
+    color: blue;
+}
+
+/*left bottom right*/
+
+.left-bottom-right {
+    width: 40%;
+    margin-left: -150px;
+}
+.left-bottom-right-top {
+    margin-top: 20px;
+    background-color: #e2f1f6;
+    padding: 25px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.left-bottom-right-top:hover {
+    box-shadow: #bce7f6 10px 10px;
+}
+.text {
+    font-weight: 800;
+    font-size: 19px;
+}
+.left-bottom-right-text {
+    padding: 15px 0;
+}
+
+/*right*/
+
+.right {
+    float: right;
+    width: 22%;
+    padding: 10px;
+}
+.right-info {
+    border-bottom: 1px solid rgb(189, 189, 189);
+}
+.button {
+    width: 150px;
+    height: 35px;
+    border-radius: 40px;
+    margin-top: 40px;
+    cursor: pointer;
+    background-color: #0c2f75;
+    color: white;
+}
+
+.weight {
+    font-weight: 700;
+    font-size: 15px;
+}
+.button:hover .weight{
+    display: block;
+    color: #bce7f6;
 }
