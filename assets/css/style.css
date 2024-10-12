@@ -133,6 +133,22 @@ a {
     color: rgb(94, 94, 94);
 }
 
+.button {
+    padding: 15px;
+    background-color: #0035a0;
+    border-radius: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+}
+
+.button:hover {
+    background-color: #bce7f6;
+    border: 1px solid #0035a0;
+    color: black;
+}
+
 /*left bottom*/
 
 .left-bottom {
@@ -247,26 +263,12 @@ a {
     border-bottom: 1px solid rgb(189, 189, 189);
 }
 
-.button {
-    text-align: center;
-    padding: 10px;
-    border-radius: 40px;
-    margin-top: 40px;
-    cursor: pointer;
-    background-color: #0035a0;
-    color: white;
-}
 
 .weight {
     font-weight: 700;
     font-size: 15px;
 }
 
-.button:hover {
-    background-color: #bce7f6;
-    border: #0035a0 2px solid;
-    color: black;
-}
 
 /*Actual News Section*/
 
@@ -287,11 +289,15 @@ a {
 .info {
     font-weight: 750;
     font-size: 32px;
+    cursor: pointer;
     padding-bottom: 20px;
 }
 
 .fa-up-right-from-square {
     font-size: 0.8rem;
+}
+.fa-up-right-from-square:hover {
+    font-size: 1rem;
 }
 
 .news-font-size {
